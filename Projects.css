@@ -849,3 +849,22 @@
 .u-container-layout.hover .u-block-4940-144:not([data-block-selected]):not([data-cell-selected]) {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }
+
+#video-container .mobile-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+@media (max-width: 767px) {
+      #video-container iframe {
+        display: none;
+      }
+
+      #video-container .mobile-background {
+        display: block;
+        background-color: #478ac9;
+      }
+}
