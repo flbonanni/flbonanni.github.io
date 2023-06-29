@@ -140,3 +140,15 @@
     margin-right: 0;
   }
 }
+
+  /* Hide the line break by default */
+  .mobile-only-br {
+    display: none;
+  }
+
+  /* Show the line break on screens with a maximum width of 767px */
+  @media (max-width: 767px) {
+    .mobile-only-br {
+      display: inline;
+    }
+  }
